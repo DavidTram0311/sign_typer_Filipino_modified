@@ -374,7 +374,7 @@ def translator(request):
 				query = "SPELLOUT: " + query
 				spellout=True;
 
-	if request.is_ajax():
+	if request.headers.get('x-requested-with'):
 		html = render_to_string(template_name="inventory/translator-partial.html",context={'signs' : signs, 'spellout' : spellout, 'sigml' : sigml, 'query' : query})
 		data_dict = {"html_from_view": html}
 		return JsonResponse(data=data_dict, safe=False)
