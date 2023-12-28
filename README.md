@@ -26,3 +26,8 @@ SyntheSign also provides **a guided HamNoSys input system** to aid the user in t
 
 ### Towards a translation system for FSL
 Resources regarding FSL grammar are being collected for the development of an automatic translation system from English to Filipino Sign Language (FSL) using the current API.
+
+### How to run
+Run the syntax below:
+`python manage.py runserver`
+``
