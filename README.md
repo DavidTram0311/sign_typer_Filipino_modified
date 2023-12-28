@@ -30,4 +30,3 @@ Resources regarding FSL grammar are being collected for the development of an au
 ### How to run
 Run the syntax below:
 `python manage.py runserver`
-``
